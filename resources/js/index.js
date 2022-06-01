@@ -28,15 +28,6 @@ function fetchMessages() {
 }
 
 
-async function updateMessages() {
-  // Fetch Messages
-  const messages = await fetchMessages();
-
-  // Loop over the messages. Inside the loop we will
-      // get each message
-      // format it
-      // add it to the chatbox
-}
 
 
 function formatMessage(message, myNameInput) {
